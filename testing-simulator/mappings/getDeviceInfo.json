@@ -1,0 +1,24 @@
+{
+  "priority":3,
+  "request": {
+    "method": "GET",
+    "urlPath": "/sport/football/playerstats/league",
+    "queryParameters": {
+      "leagueId": {
+        "equalTo": "1639"
+      },
+      "api_key": {
+        "equalTo": "xxxxxxxxxxxxxxxxx"
+      }
+
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "resps/GermanBundesligaPlayerStats.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache"
+    }
+  }
+}
